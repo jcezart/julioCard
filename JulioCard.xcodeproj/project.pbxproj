@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		496EB9A32F942A110061FFD6 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 496EB9A22F942A110061FFD6 /* README */; };
+		496EB9A32F942A110061FFD6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 496EB9A22F942A110061FFD6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		496EB9A22F942A110061FFD6 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		496EB9A22F942A110061FFD6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		49EBCA882F90FB8300387D85 /* JulioCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JulioCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -50,7 +50,7 @@
 		49EBCA7F2F90FB8300387D85 = {
 			isa = PBXGroup;
 			children = (
-				496EB9A22F942A110061FFD6 /* README */,
+				496EB9A22F942A110061FFD6 /* README.md */,
 				49EBCA8A2F90FB8300387D85 /* JulioCard */,
 				49EBCA892F90FB8300387D85 /* Products */,
 			);
@@ -128,7 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				496EB9A32F942A110061FFD6 /* README in Resources */,
+				496EB9A32F942A110061FFD6 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
