@@ -1,0 +1,53 @@
+# 📇 JulioCard
+
+Digital business card built with SwiftUI.
+
+A simple iOS project created to practice layout, reusable components, custom fonts and asset handling.
+
+---
+
+## 📱 Preview
+
+<p align="center">
+  <img src="preview/JulioCard.png" width="300">
+</p>
+
+---
+
+## 🚀 Features
+
+- Custom profile layout using ZStack and VStack
+- Reusable `InfoView` component
+- Enum-based icon handling (system + asset)
+- Custom font integration
+- Clean and structured SwiftUI code
+
+---
+
+## 🛠 Tech Stack
+
+- Swift
+- SwiftUI
+- SF Symbols
+- Custom Assets
+- iOS 16+
+
+---
+
+## 📚 What I Practiced
+
+- SwiftUI layout system
+- Component extraction
+- View composition
+- Enum for UI abstraction
+- Asset vs System images handling
+
+---
+
+## 👨‍💻 Author
+
+Julio Cezar
+iOS & Android Developer
+
+GitHub: github.com/jcezart
+LinkedIn: linkedin.com/in/jcgteixeira
