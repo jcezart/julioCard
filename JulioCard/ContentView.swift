@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
     var body: some View {
         ZStack {
             Color(red: 44/255, green: 62/255, blue: 80/255)
@@ -30,25 +32,19 @@ struct ContentView: View {
                     .font(.system(size: 25))
                 Divider()
                 
-                ZStack{
-                    RoundedRectangle(cornerRadius: 25, style: .continuous)
-                        .fill(.white)
-                        .frame(height: 50)
-                    HStack{
-                        Image(systemName: "phone.circle")
-                            .foregroundStyle(Color.green)
-                        Text("+55 41 992330843")
-                        
-                    }
-                }
-                .padding()
+                InfoView(text: "+55 41 992330843", icon: .system("phone.circle"))
+                InfoView(text: "jcezar.t@gmail.com", icon: .system("envelope.fill"))
+                InfoView(text: "linkedin.com/in/jcgteixeira", icon: .asset("linkedin"))
+                InfoView(text: "github.com/jcezart", icon: .asset("github"))
                 
             }
         }
-
+        
     }
 }
 
 #Preview {
     ContentView()
 }
+
+
