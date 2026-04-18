@@ -9,7 +9,7 @@ A simple iOS project created to practice layout, reusable components, custom fon
 ## 📱 Preview
 
 <p align="center">
-  <img src="JulioCard.png" width="300">
+  <img src="JulioCard-mock.png" width="300">
 </p>
 
 ---
